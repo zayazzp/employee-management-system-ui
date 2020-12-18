@@ -1,0 +1,50 @@
+main {
+  float: right;
+  width: 80vw;
+  ul {
+    list-style: none;
+    font-size: 1.5rem;
+  }
+  h2 {
+    font-size: 2rem;
+    text-align: center;
+    color: $steel-teal;
+  }
+}
+.main {
+  &__form {
+    width: 40%;
+    float: left;
+    font-size: 1.2rem;
+    padding: 0 10px;
+    border-right: 1px solid black;
+    height: 85vh;
+  }
+  &__table {
+    width: 60%;
+    float: right;
+
+    thead {
+      font-size: 1.2rem;
+      th {
+        padding-top: 12px;
+        padding-bottom: 12px;
+        text-align: left;
+        background-color: #4caf50;
+        color: white;
+        text-align: center;
+      }
+    }
+    tbody {
+      td {
+        text-align: center;
+      }
+      tr:hover {
+        background-color: #ddd;
+      }
+      tr:nth-child(even) {
+        background-color: #f2f2f2;
+      }
+    }
+  }
+}

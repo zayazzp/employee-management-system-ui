@@ -1,0 +1,18 @@
+.dashboard {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  &__element {
+    background: $steel-teal;
+    color: #ececec;
+    margin: 10px 10px;
+    padding: 10px;
+    font-size: 3rem;
+    border-radius: 50px;
+    a {
+      color: #ececec;
+    }
+  }
+  i {
+    margin: 0 15px 0 5px;
+  }
+}

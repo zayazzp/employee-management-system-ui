@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Himalaya Organic Farm | EMS</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+<body>
+    <header><a href="index.html">Himalaya Organic Farm</a></header>
+    <div class="container">
+        <aside>
+            <ul>
+                <li><a href="index.html">Dashboard</a></li>
+                <li><a href="users.html">Users</a></li>
+                <li><a href="employee.html">Employee</a></li>
+                <li><a href="department.html">Department</a></li>
+                <li><a href="designation.html">Designation</a></li>
+                <li><a href="vacancy.html">Vacancy</a></li>
+                <li><a href="salary.html">Salary</a></li>
+                <li><a href="leave.html">Leave</a></li>
+                <li><a href="logout.html">Logout</a></li>
+            </ul>
+        </aside>
+        <main>
+           <h2>Employee Management</h2>
+           <form class="main__form">
+                <input type="text" placeholder="Username"><br><br>
+                <input type="text" placeholder="Address"><br><br>
+                <input type="text" placeholder="Contact"><br><br>
+                Department<br>
+                <select>
+                    <option>Human Resources</option>
+                    <option>Technical</option>
+                    <option>Geology</option>
+                    <option>Government</option>
+                </select> <br>
+                Designation:<br>
+                <select>
+                    <option>Senior Professinal in HR</option>
+                    <option >Group Benefits Associate</option>
+                    <option>Conflict Manager</option>
+                    <option>Scrum Master</option>
+                    <option>Oracle Certified Professional</option>
+                    <option>Hydrologist</option>
+                    <option> Geologist</option>
+                    <option >Certified Public Manager</option>
+                    <option>Environmental Authrity</option>
+                </select> <br><br>
+                <div>
+                    <button class="btn">Create</button>
+                    <button class="btn">Update</button>
+                    <button class="btn">Delete</button>
+                </div>
+           </form>
+           <table class="main__table">
+               <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Username</th>
+                    <th>Address</th>
+                    <th>Contact</th>
+                    <th>Department</th>
+                    <th>Designation</th>
+                  </tr>
+               </thead>
+               <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Sweta121</td>
+                    <td>Bharatpur, Chitwan</td>
+                    <td>9846275628</td>
+                    <td>Human Resources</td>
+                    <td>Senior Professional</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Roman111</td>
+                    <td>Parsa, Chitwan</td>
+                    <td>9856378141</td>
+                    <td>Technical</td>
+                    <td>Scrum Master</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Madan245</td>
+                    <td>Tandi, Chitwan</td>
+                    <td>9856474141</td>
+                    <td>Geology</td>
+                    <td>Certified Soil Classifier</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Deepak61</td>
+                    <td>Bharatpur, Chitwan</td>
+                    <td>9846275641</td>
+                    <td>Geology</td>
+                    <td>Hydrologist</td>
+                </tr>
+               </tbody>
+           </table>
+        </main>
+    </div>
+</body>
+</html>
